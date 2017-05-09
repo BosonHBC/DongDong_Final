@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/DongDong">
+      <Resource name="jdbc/login_tb" auth="Container" type="javax.sql.DataSource"
+    maxActive="20" maxIdle="5" maxWait="3000" removeAbandoned="true"
+    username="aiad073" password="aiad073"
+    driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+    url="jdbc:sqlserver://w2ksa.cs.cityu.edu.hk:1433;databaseName=aiad073_db;" />
+      
+      <Resource name="jdbc/book" auth="Container" type="javax.sql.DataSource"
+    maxActive="20" maxIdle="5" maxWait="3000" removeAbandoned="true"
+    username="aiad073" password="aiad073"
+    driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+    url="jdbc:sqlserver://w2ksa.cs.cityu.edu.hk:1433;databaseName=aiad073_db;" />
+
+</Context>
